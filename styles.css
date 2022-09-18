@@ -124,7 +124,7 @@ h3 a{
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
-    font-size: 1.35em;
+    font-size: 1.3rem;
     line-height: 250%;
 
 
@@ -156,7 +156,7 @@ h5 a{
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
-    font-size: 1.8em;
+    font-size: 1.3rem;
     line-height: 250%;
 
 
@@ -175,8 +175,8 @@ h5 a{
     display: grid;
   place-items: center;
   padding-bottom: 7em;
-  padding-left: 3em;
-  padding-right: 3em;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 .side-buttons {
@@ -188,7 +188,7 @@ h5 a{
 .other-nav {
     grid-column: 1;
     grid-row: 1;
-    width: 345px;
+    width: 18rem;
     height: 59px;
     left: 578px;
     top: 1607px;
@@ -203,7 +203,7 @@ h5 a{
 .about-me-nav {
     grid-column: 1;
     grid-row: 1;
-    width: 345px;
+    width: 18rem;
     height: 59px;
     left: 578px;
     top: 1607px;
@@ -645,7 +645,7 @@ box-shadow: 0px 4px 8px 12px rgba(0, 0, 0, 0.04), inset 0px 4px 30px 10px #FFFFF
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
-    font-size: 2.5em;
+    font-size: 2.3em;
     line-height: 125%;
 
     display: flex;
@@ -662,7 +662,7 @@ box-shadow: 0px 4px 8px 12px rgba(0, 0, 0, 0.04), inset 0px 4px 30px 10px #FFFFF
     justify-items: center;
     align-items: center;
     padding: 8em;
-    padding-top: 8em;
+    padding-top: 4em;
     padding-bottom: 0em;
 }
 
@@ -700,7 +700,7 @@ box-shadow: 0px 4px 8px 12px rgba(0, 0, 0, 0.04), inset 0px 4px 30px 10px #FFFFF
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
-    font-size: 1.2em;
+    font-size: 1em;
     line-height: 222%;
 
     text-align: left;
@@ -717,7 +717,7 @@ box-shadow: 0px 4px 8px 12px rgba(0, 0, 0, 0.04), inset 0px 4px 30px 10px #FFFFF
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
-    font-size: 1.2em;
+    font-size: 1em;
     line-height: 222%;
 
     text-align: left;
