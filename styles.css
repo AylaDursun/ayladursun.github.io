@@ -246,7 +246,7 @@ h4 {
 }
 
 .featured-projects {
-    margin: 5rem;
+    margin: 0rem 5rem 0rem 5rem;
     display: grid;
     grid-template-columns: auto auto auto;
     column-gap: 1rem;
@@ -255,6 +255,22 @@ h4 {
     padding-bottom: 10em;
     padding-left: 6em;
     */
+}
+
+#viewAll {
+    font-size: 1.5rem;
+    align-items: center;
+    text-align: left;
+    font-family: Poppins;
+    padding-left: 5.5rem;
+    font-style: normal;
+    font-weight: 500;
+    color: #ffb28e;
+    margin-top: 4rem;
+}
+
+#viewAll:hover {
+    color: #facea5;
 }
 
 .featured-projects a {
@@ -266,10 +282,6 @@ h4 {
 }
 
 .featured-projects a:hover {
-    font-size: 1rem;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 500;
     color: #facea5;
 }
 
@@ -807,7 +819,7 @@ box-shadow: 0px 4px 8px 12px rgba(0, 0, 0, 0.04), inset 0px 4px 30px 10px #FFFFF
     margin-left: 3em;
 }
 
-img {
+.bio img {
     box-shadow: 0px 4px 12px 4px rgba(0, 0, 0, 0.08);
     border-radius: 50%;
 }
