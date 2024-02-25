@@ -3,6 +3,7 @@ import '../../styles.css'
 import marbleSolitaireImage from '../../images/MarbleSolitaire.png'
 import imageProcessorImage from '../../images/ImageProcessorDemo.jpg'
 import NavBar from "../Common/nav-bar";
+import { NavLink } from "react-router-dom";
 
 const Home = () => {
     return (
@@ -14,7 +15,8 @@ const Home = () => {
 
         <div className="about-me-button">
             <h3>
-                <a href="AboutMe.html">ABOUT ME</a> 
+                
+                <NavLink to="/about-me">About Me</NavLink>
             </h3>
             <div className="about-me-nav"></div>
         </div>
