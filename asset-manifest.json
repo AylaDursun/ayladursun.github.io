@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.c0997755.css",
-    "main.js": "/static/js/main.08483790.js",
-    "static/js/787.d4aba7ab.chunk.js": "/static/js/787.d4aba7ab.chunk.js",
+    "main.js": "/static/js/main.f25a392f.js",
+    "static/js/787.53156cf5.chunk.js": "/static/js/787.53156cf5.chunk.js",
     "static/media/ArtExplorationsInIrelandDesktop.png": "/static/media/ArtExplorationsInIrelandDesktop.7bd361d009417e5884ab.png",
     "static/media/LightscapeDesktop.png": "/static/media/LightscapeDesktop.8535d43d2b9c4d8a518b.png",
     "static/media/ReflectionsOfUsFront.png": "/static/media/ReflectionsOfUsFront.c0695db90b6d0fce04f8.png",
@@ -21,15 +21,15 @@
     "static/media/PhysicsSimulator.png": "/static/media/PhysicsSimulator.f0a69a54cf6f7b8e657e.png",
     "static/media/TicTacToe.png": "/static/media/TicTacToe.09143ea13ac4db4a0c16.png",
     "static/media/Spreadsheet.png": "/static/media/Spreadsheet.a71fe75252aa10fa8481.png",
-    "static/media/Ayla_Dursun_Resume_2024.pdf": "/static/media/Ayla_Dursun_Resume_2024.0a1d1600fc124c0e5496.pdf",
+    "static/media/Ayla_Dursun_Resume_2024.pdf": "/static/media/Ayla_Dursun_Resume_2024.db37e10e3d720041ac95.pdf",
     "static/media/Memory.png": "/static/media/Memory.193687105eaf6d30a7c2.png",
     "index.html": "/index.html",
     "main.c0997755.css.map": "/static/css/main.c0997755.css.map",
-    "main.08483790.js.map": "/static/js/main.08483790.js.map",
-    "787.d4aba7ab.chunk.js.map": "/static/js/787.d4aba7ab.chunk.js.map"
+    "main.f25a392f.js.map": "/static/js/main.f25a392f.js.map",
+    "787.53156cf5.chunk.js.map": "/static/js/787.53156cf5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c0997755.css",
-    "static/js/main.08483790.js"
+    "static/js/main.f25a392f.js"
   ]
 }
