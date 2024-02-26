@@ -15,7 +15,6 @@ const Home = () => {
 
         <div className="about-me-button">
             <h3>
-                
                 <NavLink to="/about-me">About Me</NavLink>
             </h3>
             <div className="about-me-nav"></div>

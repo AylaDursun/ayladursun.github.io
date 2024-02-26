@@ -39,7 +39,7 @@ const Projects = () => {
                     <Project 
                     title={"Lightscape Webpage"} 
                     linkText={"View Webpage →"} 
-                    linkUrl={"https://ayladursun.github.io/Lightscape/"} 
+                    linkUrl={"https://ayladursun.com/lightscape/"} 
                     description={"This webpage was designed and coded for a class assignment. I particularly enjoyed working with animations to bring the page to life and represent the effect of seeing the lights at the actual event."}
                     />
                 </div>
@@ -60,7 +60,7 @@ const Projects = () => {
                     <Project 
                     title={"Art Program Webpage"} 
                     linkText={"View Webpage →"} 
-                    linkUrl={"https://ayladursun.github.io/Art-Explorations-In-Ireland/"} 
+                    linkUrl={"https://ayladursun.com/art-explorations-in-ireland/"} 
                     description={"This page was created to advertise a study abroad program offered by the art department of Northeastern University in partnership with the Burren College of Art. I created water color illustrations and worked with various scroll-based animations to add visual interest."}
                     />
                 </div>
@@ -84,7 +84,7 @@ const Projects = () => {
                     <Project 
                     title={"Spreadsheet Web App"} 
                     linkText={"View Webpage →"} 
-                    linkUrl={"https://ayladursun.github.io/Spreadsheet/"} 
+                    linkUrl={"https://ayladursun.com/spreadsheet/"} 
                     description={"This spreadsheet web app was made as a group project. It includes traditional mathematical spreadsheet operations, options for finding and replacing values, custom data validation rules, and formatting."}
                     />
                 </div>
