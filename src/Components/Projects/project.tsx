@@ -14,7 +14,7 @@ const Project = ({title, linkText, linkUrl, description}: ProjectContents) => {
                 <br/>
                 <br/>
                 <h6>{title}</h6>
-                <a href={linkUrl}>{linkText}</a>
+                <a href={linkUrl} target="_blank">{linkText}</a>
                 <details>
                     <summary>Details</summary>
                     <p>{description}</p>
