@@ -7,13 +7,15 @@ const Skills = () => {
             <div className="subheading">Skills</div>
             <strong>Languages:</strong> 
             <br/>
-            Java | TypeScript | JavaScript | HTML | CSS | SQL | C# | MATLAB | C++             
+            Java | TypeScript | JavaScript | Ruby | HTML | CSS | SQL | C# | MATLAB | C++              
+            <br/>
             <br/>
             <strong>Other:</strong> 
             <br/>
-            Adobe Illustrator, Photoshop, InDesign, XD | Figma | Axure | Appium | Selenium | 
-            React | Bootstrap | jQuery | Unity | Blender | Microsoft Excel | 
-            3D printing and laser cutting | Arduino | AutoCAD | SolidWorks | TinkerCAD     
+            Figma | Adobe Illustrator, Photoshop, InDesign, XD | Axure | Appium | 
+            Selenium | Rails | Spring | Docker | AWS | Kubernetes | React | Git | 
+            Bootstrap | Unity | Microsoft Excel | 3D printing and laser cutting | 
+            Arduino | AutoCAD | SolidWorks | TinkerCAD     
             <br/> <br/> 
         </div>
     )

@@ -13,12 +13,14 @@ import {
   Route,
   NavLink
 } from "react-router-dom";
+import ScrollToTop from './Components/Common/scroll-to-top';
 
 
 function App() {
     return (
       <div>
           <BrowserRouter>
+          <ScrollToTop />
                     <Routes>
                         <Route path={'/*'} element={<Home/>}/>
                         <Route path={"/about-me"} element={<AboutMe/>}/>

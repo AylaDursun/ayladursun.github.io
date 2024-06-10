@@ -3,14 +3,17 @@ import '../../styles.css'
 import marbleSolitaireImage from '../../images/MarbleSolitaire.png'
 import imageProcessorImage from '../../images/ImageProcessorDemo.jpg'
 import NavBar from "../Common/nav-bar";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Home = () => {
     return (
         <div>
             <NavBar/>
         <h1>HELLO <br/> WORLD</h1>
-        <h2>My name is Ayla Dursun and I am a Computer Science and Design Student at Northeastern University.
+        <h2>
+        My name is Ayla Dursun and I am a recent graduate from Northeastern University 
+        with a Degree in Computer Science and Design. I have multiple years of software 
+        development experience and I am looking for a full-time job.
         </h2>
 
         <div className="about-me-button">
@@ -25,29 +28,19 @@ const Home = () => {
             <div className="feature">
                 <div className="macbook">
                     <div className="screen">
-                        {<div className="viewport" id="rize"></div>}
+                        {<div className="viewport" id="lightscape"></div>}
                     </div>
                     <div className="base"></div>
                     <div className="notch"></div>
                 </div>
                 <br/>
-                <h6>Rize Tea Website Design</h6>
-                <a href="https://www.figma.com/file/Xsj6w2PQ7iNnBxwfziZqLu/Rize-Tea?node-id=2%3A2">View Figma File →</a>
+                <h6>Lightscape Webpage</h6>
+                <a href="https://ayladursun.com/lightscape/">View Webpage →</a>
                 <br/>
                 <p>
-                    This project consists of a prototyped website in Figma and various supplementary materials. The workflow for adding items to the cart and checking out is prototyped. There is also an attached style guide that contains information for the components, colors, interactions, and type.
+                This webpage was designed and coded for a class assignment. I particularly enjoyed working with animations to bring the page to life and represent the effect of seeing the lights at the actual event. To do this, I utilized css animations and transitions to create different glow effects.
                 </p>
             </div>  
-            <div className="feature">
-                {<img src={marbleSolitaireImage} alt="Image of Project" id = "marble-solitaire"/>}
-                <br/> <br/>
-                <h6>Java Marble Solitaire</h6>
-                <a>Code Available On Request</a>
-                <br/>
-                <p>
-                    This game has support for multiple shapes of marble solitaire as well as the ability to set a custom size for the board and custom starting position for the empty slot. It follows MVC design patterns and has both a text view and GUI view.
-                </p> 
-            </div> 
             <div className="feature">
                 {<img src={imageProcessorImage} id="image-processor" alt="Image of Project"/>}
                 <br/> <br/>
@@ -58,9 +51,24 @@ const Home = () => {
                     This image processor has support for the following: uploading and saving files, greyscale and sepia filters, blurring, rbg component representations, histograms, luma value and intensity representations, flipping, brightening and darkening, and downscaling.
                 </p>
             </div>
+            <div className="feature">
+                <div className="macbook">
+                    <div className="screen">
+                        {<div className="viewport" id="explorations"></div>}
+                    </div>
+                    <div className="base"></div>
+                    <div className="notch"></div>
+                </div>
+                <br/>
+                <h6>Art Program Webpage</h6>
+                <a href="https://ayladursun.com/art-explorations-in-ireland/">View Webpage →</a>
+                <br/>
+                <p>
+                This page was created to advertise a study abroad program offered by the art department of Northeastern University in partnership with the Burren College of Art. I created water color illustrations and worked with various scroll-based animations to add visual interest.                </p>
+            </div>  
         </div>
         <br/>
-        <a href="Projects.html" id="viewAll">View All →</a>
+        <Link to="/projects" id="viewAll">View All →</Link>
         <div className="background-circles">
             <div className="ellipse1"></div>
             <div className="ellipse2"></div>

@@ -22,7 +22,7 @@ a {
     box-shadow: 0px .15em .7em rgba(0, 0, 0, 0.205);
     padding: .5em;
     position:fixed;
-    width: 100%;
+    width: 100vw;
     top: 0;
     z-index: 10;
 }
@@ -759,7 +759,7 @@ box-shadow: 0px 4px 8px 12px rgba(0, 0, 0, 0.04), inset 0px 4px 30px 10px #FFFFF
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
-    font-size: 2.3em;
+    font-size: 2em;
     line-height: 125%;
 
     display: flex;
@@ -1395,8 +1395,12 @@ box-shadow: 0px 4px 8px 12px rgba(0, 0, 0, 0.04), inset 0px 4px 30px 10px #FFFFF
     top: 0;
   }
 
-  #rize {
-    background-image: url('images/RizeTeaHome.png');
+  #lightscape {
+    background-image: url('images/LightscapeDesktop.png');
+  }
+
+  #explorations {
+    background-image: url('images/ArtExplorationsInIrelandDesktop.png');
   }
   
   #marble-solitaire {
@@ -1432,13 +1436,18 @@ box-shadow: 0px 4px 8px 12px rgba(0, 0, 0, 0.04), inset 0px 4px 30px 10px #FFFFF
     .right-col {
         grid-column: 1;
         grid-row: 2;
-        margin-left: 3em;
+        margin-left: auto;
+        margin-right: auto;        
         padding-top: 0em;
         top: -2em;
+        padding: 8em, 0em;
     }
     .left-col {
+        margin-left: auto;
+        margin-right: auto;
         grid-column: 1;
         grid-row: 1;
+        padding: 9em, 0em;
     }
 
     .projects {
@@ -1447,14 +1456,21 @@ box-shadow: 0px 4px 8px 12px rgba(0, 0, 0, 0.04), inset 0px 4px 30px 10px #FFFFF
         margin-right: auto;
     }
 
-    .featured-projects {
-        grid-template-columns: auto;
-        margin-left: auto;
-        margin-right: auto;
+    .feature {
+        margin: .2rem auto 0rem auto;
+
+        font-size: 1.2rem;
+        line-height: 100%;
+        text-align: center;
+        display: block;
+        padding: 5%;
+    
+        width: 18em;
+        height: 566px;
     }
 
-    .feature {
-        margin: 2rem auto 0rem auto;
+    .greeting {
+        font-size: 1.8em;
     }
 }
 
@@ -1477,6 +1493,25 @@ box-shadow: 0px 4px 8px 12px rgba(0, 0, 0, 0.04), inset 0px 4px 30px 10px #FFFFF
     }
     .project details {
         font-size: .8rem;
+    }
+
+    .featured-projects {
+        grid-template-columns: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .feature {
+        margin: 2rem auto 0rem auto;
+        width: 25rem;
+        height: 566px;
+    }
+
+    h4 {
+        padding-left: 0;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
     }
 }
 
@@ -1503,12 +1538,23 @@ box-shadow: 0px 4px 8px 12px rgba(0, 0, 0, 0.04), inset 0px 4px 30px 10px #FFFFF
         width: 70%;
         height:30rem;
     }
+
+    .subheading {
+        display: block;
+    }
 }
 
 @media only screen and (max-width: 1000px) {
     .bio {
         display: block;
+        padding: 5em;
+        padding-bottom: 4em;
     }
+
+    .bio img {
+        max-width: 40%;
+    }
+
     img {
         display: block;
         margin-left: auto;
@@ -1518,17 +1564,27 @@ box-shadow: 0px 4px 8px 12px rgba(0, 0, 0, 0.04), inset 0px 4px 30px 10px #FFFFF
     }
     .greeting {
         padding-top: 2em;
+        padding-left: 0;
+        display: block;
         text-align: center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .content {
         display: block;
     }
     .left-col {
-        padding-top: 17em;
+        padding-top: 15em;
+    }
+
+    h2 {
+        font-size: 1.8em;
     }
 }
 
 @media only screen and (max-width: 800px) {
+
     .side-buttons {
         display: block;
     }
@@ -1537,5 +1593,68 @@ box-shadow: 0px 4px 8px 12px rgba(0, 0, 0, 0.04), inset 0px 4px 30px 10px #FFFFF
     }
     .section-header {
         font-size: 5em;
+    }
+
+    .navigation {
+        font-size: .9em;
+    }
+
+    li {
+        margin: 0em .6em;
+    }
+
+    .greeting {
+        font-size: 1.5em;
+    }
+
+    .bio {
+        padding-bottom: 7.5em;
+    }
+
+    .left-col {
+        padding-top: 10em;
+    }
+
+    h1 {
+        font-size: 9em;
+    }
+}
+
+@media only screen and (max-width: 552px) {
+    .greeting {
+        font-size: .9em;
+    }
+
+    .bio {
+        padding-bottom: 9em;
+    }
+
+    .section-header {
+        font-size: 3em;
+        padding-top: 1em;
+    }
+
+    #projects-header {
+        margin-bottom: -3em;
+    }
+
+    h1 {
+        font-size: 5.5em;
+    }
+
+    h2 {
+        font-size: 1em;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .navigation {
+        font-size: .8em;
+    }
+
+    h1 {
+        font-size: 4em;
     }
 }

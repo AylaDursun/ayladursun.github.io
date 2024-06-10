@@ -9,25 +9,27 @@ const WorkExperiences = () => {
             <div className="subheading">Work Experience</div>
                     <WorkExperience
                     dates="JANUARY 2023 – PRESENT,"
-                    title="BACKEND ENGINEER CO-OP, FLEXCAR"
-                    description="Worked as a backend engineer on the viability team to improve risk 
-                    handling using data from third-party integrations, Communicated with other team members to 
-                    coordinate work on projects, Took ownership of the implementation of multiple new features 
-                    such as rejections based on driving records"
+                    title="SOFTWARE ENGINEER I, FLEXCAR"
+                    description="Worked as a backend engineer on the viability team to improve risk handling using data from 
+                    third-party integrations, Took ownership of the design and implementation of multiple new features such 
+                    as rejections based on driving records and integration with other services, Participated in multiple 
+                    large-scale migrations including a complete rewrite, Communicated with other team members to 
+                    coordinate work on large projects"
                     />
                     <WorkExperience
                         dates="JANUARY 2022 – DECEMBER 2022,"
                         title="SOFTWARE ENGINEER QA AUTOMATION CO-OP, WELLFRAME"
-                        description="Worked to extend automated mobile test coverage based on user workflows and stabilize 
-                        existing tests following new releases, Performed release testing, Created and updated scripts 
-                        that communicate with APIs to write and receive testing metrics"
+                        description="Extended automated mobile test coverage based on user workflows and stabilized 
+                        existing tests following new releases, Created and updated scripts that communicate with 
+                        APIs to write and receive testing metrics, Automated workflows with CI/CD pipelines in 
+                        GitLab, Performed release testing"
                     />
                     <WorkExperience
                         dates="JUNE 2019 – SEPTEMBER 2023,"
                         title="TUTOR, FREELANCE"
-                        description="Developed lesson plans based on age and skill level and tutored students in a variety of 
-                        subjects including college-level computer science classes such as Fundamentals of Computer Science II 
-                        and Algorithms and Data"
+                        description="Taught students in a variety of subjects including college-level computer 
+                        science classes such as Fundamentals of Computer Science II and Algorithms and Data, 
+                        Developed lesson plans based on age and skill level "
                     />
                     <WorkExperience
                         dates="2021 SPRING & FALL SEMESTERS,"

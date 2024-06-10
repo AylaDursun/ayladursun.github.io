@@ -27,7 +27,7 @@ const Projects = () => {
     return (
         <div>
             <NavBar/>
-            <header className="section-header">
+            <header className="section-header" id="projects-header">
                 PROJECTS
             </header>   
             <section className="threeCol">
