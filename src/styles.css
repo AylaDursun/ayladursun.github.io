@@ -88,7 +88,7 @@ h1 {
     line-height: 80%;
     align-items: center;
     text-align: center;
-    padding-top: 1.2em;
+    padding-top: 1em;
     background-color: #FF747C;
     background-image: linear-gradient(180deg, #FF747C 25.88%, #FFC48E 75.22%);
     background-size: 200%;
@@ -112,11 +112,9 @@ h2 {
     letter-spacing: 0.2em;
 
     color: var(--dark-gray);
-    
-    padding-top: 9rem;
-    padding-bottom: -1.2em;
-    padding-right: 10rem;
-    padding-left: 10rem;
+
+    padding: 10rem;
+    margin-bottom: -1.2em;
 }
 
 h3 {
