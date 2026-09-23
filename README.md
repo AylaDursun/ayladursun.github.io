@@ -43,5 +43,6 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 
 run `npm run predeploy`
+run `npm run deploy`
 
 
