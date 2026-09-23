@@ -8,7 +8,20 @@ const WorkExperiences = () => {
         <div>
             <div className="subheading">Work Experience</div>
                     <WorkExperience
-                    dates="JANUARY 2023 – PRESENT,"
+                    dates="OCTOBER 2024 – PRESENT,"
+                    title="SOFTWARE DEVELOPMENT ENGINEER, CVS/AETNA"
+                    description="Engineer on AI-based knowledge assistant that generates answers 
+                    for insurance benefits questions based on over 30 structured and unstructured 
+                    data sources, working on full-lifecycle including data discovery, ingestion and 
+                    information retrieval / answer generation "
+                    // key_projects={[
+                    //     "Architected of a new version of the service which makes it more extensible to other consumers and reduced latency by multiple seconds",
+                    //     "Lead an expansion to the provider call center for both medical and dental plans which involved incorporating new data sources and enhancing existing sources/functionality",
+                    //     "Lead the migration of the frontend to React "
+                    // ]}
+                    />
+                    <WorkExperience
+                    dates="JANUARY 2023 – SEPTEMBER 2024,"
                     title="SOFTWARE ENGINEER I, FLEXCAR"
                     description="Worked as a backend engineer on the viability team to improve risk handling using data from 
                     third-party integrations, Took ownership of the design and implementation of multiple new features such 
@@ -37,18 +50,18 @@ const WorkExperiences = () => {
                         description="Worked to run 3D printing studio and fulfill student requests, Operated 3D printers and laser cutter, 
                         Set submitted files to ensure quality prints, Conducted post-processing work"
                     />
-                    <WorkExperience
+                    {/* <WorkExperience
                         dates="FROM JUNE 2019 – TO AUGUST 2019,"
                         title="HOSTESS"
                         description="Worked in a team to ensure customers had a positive dining experience through 
                         communication and organization, Managed cash register"
-                    />
-                    <WorkExperience
+                    /> */}
+                    {/* <WorkExperience
                         dates="FROM JUNE 2018 – TO AUGUST 2018,"
                         title="CAMP COUNSELOR"
                         description="Ensured safety and enjoyment of children ages two to twelve, Adapted to unexpected 
                         circumstances, Worked with and trained other counselors, Promoted to supervisory role"
-                    />
+                    /> */}
         </div>
     )
 };

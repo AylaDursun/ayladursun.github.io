@@ -1,7 +1,7 @@
 import React from "react";
 import '../../styles.css'
 import NavBar from "../Common/nav-bar";
-import Resume from "../../Resources/Ayla_Dursun_Resume_2024.pdf"
+import Resume from "../../Resources/Ayla_Dursun_Resume_2026.pdf"
 
 const ActionButtons = () => {
     return (
