@@ -11,8 +11,7 @@ const Home = () => {
             <NavBar/>
         <h1>HELLO <br/> WORLD</h1>
         <h2>
-        My name is Ayla Dursun and I am a recent graduate from Northeastern University 
-        with a Degree in Computer Science and Design. I have multiple years of software 
+        My name is Ayla Dursun and I am a software engineer with multiple years of
         development experience and I am looking for a full-time job.
         </h2>
 
